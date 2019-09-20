@@ -5,9 +5,11 @@ var stdin = process.openStdin();
 
 stdin.addListener("data", function(d) {
     var dato = d.toString().trim();
-    console.log(`hallo`);
+    console.log(`سلام`);
     var dato = d.toString().trim();
-    console.log(`नमस्कार`);
+    console.log(`नमस्ते`);
+    var dato = d.toString().trim();
+    console.log(`ഹലോ`);
     if (dato == 'salir') {
         return process.stdin.destroy();
     }
